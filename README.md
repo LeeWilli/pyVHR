@@ -4,7 +4,7 @@ Fix a conflict between two Welch functions from pyVHR.extraction.utils and pyVHR
 ### Installation
 
 ```bash
-git clone git@github.com:phuselab/pyVHR.git
+git clone git@github.com:LeeWilli/pyVHR.git
 cd pyVHR/
 python setup.py install
 ```
