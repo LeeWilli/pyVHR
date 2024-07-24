@@ -3,9 +3,9 @@ import numpy as np
 from scipy.signal import  stft
 import plotly.graph_objects as go
 from pyVHR.plot.visualize import VisualizeParams
-from pyVHR.BPM.utils import *
 from scipy.stats import median_abs_deviation as mad
 from pyVHR.extraction.utils import *
+from pyVHR.BPM.utils import *  # import at last to replace Welch function from pyVHR.extraction.utils
 
 """
 This module contains classes and methods for transforming a BVP signal in a BPM signal.
