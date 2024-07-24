@@ -13,13 +13,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyVHR",
-    version="2.0",
+    version="2.1",
     author="Vittorio Cuculo <vittorio.cuculo@unimi.it>, Donatello Conte <donatello.conte@univ-tours.fr>, Alessandro D'Amelio <alessandro.damelio@unimi.it>, Giuliano Grossi <giuliano.grossi@unimi.it>, Edoardo Mortara <edoardo.mortara@studenti.unimi.it>",
     author_email="",
     description="Package for rPPG methods",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/phuselab/pyVHR",
+    url="https://github.com/LeeWilli/pyVHR",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
