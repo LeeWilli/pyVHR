@@ -1,6 +1,14 @@
 ## pyVHR 2.1
 Fix a conflict between two Welch functions from pyVHR.extraction.utils and pyVHR.BPM.utils respectively in pyVHR.BPM.BPM.py. The Welch need the implementation of pyVHR.BPM.utils, so import Welch from pyVHR.BPM.utils behind pyVHR.extraction.utils and solve the conflict.
 
+### Installation
+
+```bash
+git clone git@github.com:phuselab/pyVHR.git
+cd pyVHR/
+python setup.py install
+```
+
 <img src="https://raw.githubusercontent.com/phuselab/pyVHR/master/img/pyVHR-logo.png" alt="pyVHR logo" width="300"/>
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyvhr)
